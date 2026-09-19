@@ -1,16 +1,49 @@
-## Hi there 👋
+<p align="center"><img src="https://raw.githubusercontent.com/tarnished000/tarnished000/main/profile-banner.svg" alt="Амир Лапшин — Linux, автоматизация и эксплуатация" width="100%"></p>
 
-<!--
-**tarnished000/tarnished000** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center"><strong>Системы должны быть понятными в эксплуатации, а повторяющиеся задачи — автоматизированными.</strong></p>
 
-Here are some ideas to get you started:
+<p align="center"><a href="https://github.com/tarnished000/femida">Проект Femida</a> · <a href="https://t.me/tarnished00">Telegram</a></p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Привет, я Амир
+
+Работаю в IT с 2023 года: сопровождение корпоративных систем, серверное администрирование и автоматизация рабочих задач. Развиваюсь в направлении **DevOps** — от диагностики Linux и контейнеризации к автоматизации сборки и развёртывания приложений.
+
+Ищу позицию **Junior DevOps / инженера инфраструктуры**. Рассматриваю удалённую работу по России или офис в Самаре.
+
+## С чем работаю
+
+| Направление | Опыт и инструменты |
+| --- | --- |
+| Эксплуатация | Диагностика инцидентов, анализ журналов, сопровождение корпоративных приложений |
+| Серверы и данные | Windows Server, IIS, MS SQL, SQL, резервное копирование |
+| Linux и контейнеры | Администрирование Linux, Docker, написание Dockerfile |
+| Автоматизация | Python, pandas, обработка Excel, прикладные инструменты |
+| Командная работа | Jira, Confluence, ServiceDesk |
+
+**Сейчас изучаю:** GitLab CI/CD. Углубляю практику Docker Compose; знаком с основами Ansible и Kubernetes.
+
+## Избранный проект
+
+### [Femida — поиск по Excel-файлам](https://github.com/tarnished000/femida)
+
+Настольное приложение для поиска данных в нескольких Excel-файлах через один интерфейс. Создано для рабочей задачи и использовалось коллегами и заказчиками.
+
+- Поиск по вхождению и полному совпадению.
+- Результаты по файлам, подсветка и фильтрация столбцов.
+- Фоновое чтение и поиск через QThread, локальный кэш данных.
+- Python · PyQt6 · pandas · NumPy.
+
+Разрабатывал с помощью ИИ-ассистента. В репозитории — исходный код, инструкция запуска, демонстрационные таблицы и описание ограничений.
+
+**[Открыть проект →](https://github.com/tarnished000/femida)**
+
+## Ближайший фокус
+
+Собрать воспроизводимый учебный стенд: **Linux → Docker Compose → GitLab CI/CD → мониторинг**. Затем добавить Ansible и практику развёртывания приложений в Kubernetes. Это план развития, а не заявление о завершённых проектах.
+
+## Связаться
+
+[Telegram: @tarnished00](https://t.me/tarnished00) · [GitHub: @tarnished000](https://github.com/tarnished000)
+
+Русский — родной · Английский — B1
+
