@@ -12,15 +12,20 @@
 
 ## С чем работаю
 
-| Направление | Опыт и инструменты |
-| --- | --- |
-| Эксплуатация | Диагностика инцидентов, анализ журналов, сопровождение корпоративных приложений |
-| Серверы и данные | Windows Server, IIS, MS SQL, SQL, резервное копирование |
-| Linux и контейнеры | Администрирование Linux, Docker, написание Dockerfile |
-| Автоматизация | Python, pandas, обработка Excel, прикладные инструменты |
-| Командная работа | Jira, Confluence, ServiceDesk |
+## Стек и инструменты
 
-**Сейчас изучаю:** GitLab CI/CD. Углубляю практику Docker Compose; знаком с основами Ansible и Kubernetes.
+| Направление | Технологии |
+| --- | --- |
+| Операционные системы | Linux, Ubuntu Server, Windows Server |
+| Контейнеризация и оркестрация | Docker, Docker Compose, Kubernetes |
+| CI/CD и контроль версий | Git, GitLab, GitLab CI/CD |
+| Управление конфигурацией и инфраструктурой | Ansible, Terraform, Infrastructure as Code (IaC) |
+| Скрипты и автоматизация | Python, Bash |
+| Веб-серверы и сети | Nginx, IIS, DNS, TCP/IP |
+| Базы данных и очереди сообщений | PostgreSQL, MS SQL, SQL, RabbitMQ |
+| Мониторинг и работа с логами | Prometheus, Grafana, Zabbix, Kibana |
+| API и тестирование | REST API, Postman |
+| Командная работа | Jira, Confluence, ServiceDesk |
 
 ## Избранный проект
 
