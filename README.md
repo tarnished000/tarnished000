@@ -18,11 +18,11 @@
 | --- | --- |
 | Операционные системы | Linux, Ubuntu Server, Windows Server |
 | Контейнеризация и оркестрация | Docker, Docker Compose, Kubernetes |
-| CI/CD и контроль версий | Git, GitLab, GitLab CI/CD |
+| CI/CD и контроль версий | Git, GitLab, GitLab CI/CD, GitHub Actions |
 | Управление конфигурацией и инфраструктурой | Ansible, Terraform, Infrastructure as Code (IaC) |
 | Скрипты и автоматизация | Python, Bash |
 | Веб-серверы и сети | Nginx, IIS, DNS, TCP/IP |
-| Базы данных и очереди сообщений | PostgreSQL, MS SQL, SQL, RabbitMQ |
+| Базы данных | PostgreSQL, MS SQL, SQL |
 | Мониторинг и работа с логами | Prometheus, Grafana, Zabbix, Kibana |
 | API и тестирование | REST API, Postman |
 | Командная работа | Jira, Confluence, ServiceDesk |
