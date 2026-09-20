@@ -7,7 +7,7 @@
 <p align="center"><strong>Системы должны быть понятными в эксплуатации, а повторяющиеся задачи — автоматизированными.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/tarnished000/devops-lab">devops-lab</a> ·
+  <a href="https://github.com/tarnished000/shortlink">shortlink</a> ·
   <a href="https://github.com/tarnished000/femida">Femida</a> ·
   <a href="https://t.me/tarnished00">Telegram</a>
 </p>
