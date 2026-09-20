@@ -1,7 +1,7 @@
 <p align="center"><img src="https://raw.githubusercontent.com/tarnished000/tarnished000/main/profile-banner.svg" alt="Амир Лапшин — Linux, автоматизация и эксплуатация" width="100%"></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=System+%26+Network+Admin+%E2%86%92+DevOps;Linux+%7C+Docker+%7C+Kubernetes+%7C+Ansible+%7C+Terraform;Learning+in+public+in+devops-lab" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=System+%26+Network+Admin+%E2%86%92+DevOps;Linux+%7C+Docker+%7C+Kubernetes+%7C+Ansible+%7C+Terraform;Learning+in+public+in+devops-lab" alt="Typing SVG" />
 </p>
 
 <p align="center"><strong>Системы должны быть понятными в эксплуатации, а повторяющиеся задачи — автоматизированными.</strong></p>
@@ -61,6 +61,16 @@
 **Сейчас на этапе:** Git/Bash — освоены основные команды, ветвление, merge-конфликты.
 
 **[Открыть проект →](https://github.com/tarnished000/devops-lab)**
+
+### [shortlink — сервис сокращения ссылок](https://github.com/tarnished000/shortlink)
+
+Junior-level DevOps pet-проект: FastAPI + PostgreSQL, контейнеризация через Docker Compose, реверс-прокси Nginx, CI на GitHub Actions (тесты + сборка образа).
+
+- Docker Compose из трёх сервисов: app, db, nginx.
+- GitHub Actions: pytest и сборка Docker-образа на каждый push.
+- Написан с помощью ИИ-ассистента — разбирал на практике связку Docker + CI/CD.
+
+**[Открыть проект →](https://github.com/tarnished000/shortlink)**
 
 ### [Femida — поиск по Excel-файлам](https://github.com/tarnished000/femida)
 
