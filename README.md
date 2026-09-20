@@ -50,18 +50,6 @@
 
 ## Проекты
 
-### [devops-lab — учебный DevOps-проект](https://github.com/tarnished000/devops-lab)
-
-Путь от системного/сетевого администратора к DevOps-инженеру: документирую каждый этап по мере реального прохождения — от Linux/Git до Kubernetes и Terraform.
-
-- Метод: 20% теория / 70% практика / 10% фиксация знаний — на каждую тему: учу → делаю → ломаю → диагностирую → чиню → документирую.
-- Целевой стек: Docker → GitLab CI/CD → Ansible → Kubernetes → Helm → ArgoCD → Terraform (Yandex Cloud) → мониторинг.
-- Статус по каждому разделу — прямо в README репозитория (готово / в процессе / запланировано).
-
-**Сейчас на этапе:** Git/Bash — освоены основные команды, ветвление, merge-конфликты.
-
-**[Открыть проект →](https://github.com/tarnished000/devops-lab)**
-
 ### [shortlink — сервис сокращения ссылок](https://github.com/tarnished000/shortlink)
 
 Junior-level DevOps pet-проект: FastAPI + PostgreSQL, контейнеризация через Docker Compose, реверс-прокси Nginx, CI на GitHub Actions (тесты + сборка образа).
