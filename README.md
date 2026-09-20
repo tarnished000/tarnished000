@@ -52,11 +52,10 @@
 
 ### [shortlink — сервис сокращения ссылок](https://github.com/tarnished000/shortlink)
 
-Junior-level DevOps pet-проект: FastAPI + PostgreSQL, контейнеризация через Docker Compose, реверс-прокси Nginx, CI на GitHub Actions (тесты + сборка образа).
+DevOps pet-проект: FastAPI + PostgreSQL, контейнеризация через Docker Compose, реверс-прокси Nginx, CI на GitHub Actions (тесты + сборка образа).
 
 - Docker Compose из трёх сервисов: app, db, nginx.
 - GitHub Actions: pytest и сборка Docker-образа на каждый push.
-- Написан с помощью ИИ-ассистента — разбирал на практике связку Docker + CI/CD.
 
 **[Открыть проект →](https://github.com/tarnished000/shortlink)**
 
