@@ -7,6 +7,7 @@
 <p align="center"><strong>Системы должны быть понятными в эксплуатации, а повторяющиеся задачи — автоматизированными.</strong></p>
 
 <p align="center">
+  <a href="https://github.com/tarnished000/devops-lab">devops-lab</a> ·
   <a href="https://github.com/tarnished000/shortlink">shortlink</a> ·
   <a href="https://github.com/tarnished000/femida">Femida</a> ·
   <a href="https://t.me/tarnished00">Telegram</a>
@@ -49,6 +50,16 @@
 ---
 
 ## Проекты
+
+### [devops-lab — DevOps-лаборатория полного цикла](https://github.com/tarnished000/devops-lab)
+
+Продакшн-стайл DevOps pet-проект: FastAPI + PostgreSQL приложение, обёрнутое в полный инструментарий реального деплоя — Docker, CI/CD, конфигурационное управление, GitOps на Kubernetes и инфраструктура как код, с мониторингом на всех уровнях.
+
+- CI/CD на GitHub Actions: тесты с реальным сервисом Postgres, затем сборка и push образа в `ghcr.io` на каждый push — уже реально работает.
+- Ansible, Kubernetes + Argo CD (GitOps) и Terraform (Yandex Cloud) — написаны и готовы к запуску, разворачиваются по мере появления реальной инфраструктуры.
+- Prometheus + Grafana + Alertmanager, метрики отдаются самим приложением (`/metrics`).
+
+**[Открыть проект →](https://github.com/tarnished000/devops-lab)**
 
 ### [shortlink — сервис сокращения ссылок](https://github.com/tarnished000/shortlink)
 
