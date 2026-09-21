@@ -74,15 +74,6 @@ DevOps pet-проект: FastAPI + PostgreSQL, контейнеризация ч
 
 ---
 
-## GitHub статистика
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tarnished000&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" height="165"/>
-  <img src="https://streak-stats.demolab.com/?user=tarnished000&theme=tokyonight&hide_border=true" alt="GitHub streak" height="165"/>
-</p>
-
----
-
 ## Связаться
 
 <p align="center">
@@ -90,6 +81,6 @@ DevOps pet-проект: FastAPI + PostgreSQL, контейнеризация ч
   <a href="https://github.com/tarnished000"><img src="https://img.shields.io/badge/GitHub-tarnished000-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
-<p align="center">Русский — родной · Английский — B1</p>
+<p align="center">Русский — родной · Английский — C1</p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:1F6FEB&height=100&section=footer" width="100%" />
