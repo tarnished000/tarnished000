@@ -7,6 +7,7 @@
 <p align="center"><strong>Системы должны быть понятными в эксплуатации, а повторяющиеся задачи — автоматизированными.</strong></p>
 
 <p align="center">
+  <a href="https://github.com/tarnished000/ha-lb-lab">ha-lb-lab</a> ·
   <a href="https://github.com/tarnished000/devops-lab">devops-lab</a> ·
   <a href="https://github.com/tarnished000/shortlink">shortlink</a> ·
   <a href="https://github.com/tarnished000/femida">Femida</a> ·
@@ -41,7 +42,7 @@
 | CI/CD и контроль версий | Git, GitLab, GitLab CI/CD, GitHub Actions, Argo CD |
 | Управление конфигурацией и инфраструктурой | Ansible, Terraform, Infrastructure as Code (IaC) |
 | Скрипты и автоматизация | Python, Bash |
-| Веб-серверы и сети | Nginx, IIS, DNS, TCP/IP |
+| Веб-серверы, балансировка и сети | Nginx, HAProxy, Keepalived (VRRP), IIS, DNS, TCP/IP |
 | Базы данных | PostgreSQL, MS SQL, SQL |
 | Мониторинг и работа с логами | Prometheus, Grafana, Zabbix, Kibana |
 | API и тестирование | REST API, Postman |
@@ -50,6 +51,17 @@
 ---
 
 ## Проекты
+
+### [ha-lb-lab — отказоустойчивая пара балансировщиков](https://github.com/tarnished000/ha-lb-lab)
+
+Учебный HA-стенд на 5 ВМ: два балансировщика HAProxy + Keepalived с плавающим VIP (VRRP) перед двумя Nginx-бэкендами, развёртывание ролями Ansible и мониторинг в Zabbix.
+
+- Failover за секунды: `track_script` отдаёт VIP второму узлу, если на мастере упал HAProxy; health-check на `/health` выводит мёртвый бэкенд из ротации.
+- Ansible: роли common, nginx, haproxy, keepalived, zabbix_agent; `validate` для конфигов, `serial: 1` для rolling update, идемпотентный повторный прогон (`changed=0`).
+- Zabbix 7.0 в Docker Compose и свои метрики: состояние HAProxy и детектор split-brain по наличию VIP на узлах.
+- Таблица из 17 разобранных отказов: split-brain, 403 из-за прав, 502/503/504, `Host key verification failed` и другие — симптом, диагностика, причина, решение.
+
+**[Открыть проект →](https://github.com/tarnished000/ha-lb-lab)**
 
 ### [devops-lab — DevOps-лаборатория полного цикла](https://github.com/tarnished000/devops-lab)
 
